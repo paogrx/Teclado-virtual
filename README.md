@@ -28,8 +28,6 @@ Este proyecto implementa un teclado virtual que utiliza la cámara para detectar
     1. Python
 Asegúrate de tener Python 3.7 o una versión superior instalada en tu sistema.
     
-    pip install python
-
 
 OpenCV
  es una librería de visión artificial que permite procesar imágenes y videos en tiempo real
