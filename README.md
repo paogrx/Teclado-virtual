@@ -25,17 +25,49 @@ Este proyecto implementa un teclado virtual que utiliza la cámara para detectar
     ```
 
 2. Instala las dependencias necesarias
+    1. Python
+Asegúrate de tener Python 3.7 o una versión superior instalada en tu sistema.
     
+    pip install python
+
+
+OpenCV
+ es una librería de visión artificial que permite procesar imágenes y videos en tiempo real
+    
+    pip install opencv-python-headless
+    
+
+MediaPipe 
+es una biblioteca desarrollada por Google que facilita la implementación de aplicaciones basadas en la percepción, como la detección de gestos.
+
+    pip install mediapipe
+
+Pynput
+permite controlar y monitorizar dispositivos de entrada como el teclado y el ratón. Es útil para simular la pulsación de teclas
+
+    pip install pynput
+
+Asegúrate de que tu sistema tenga los siguientes paquetes instalados para evitar problemas de compatibilidad, especialmente si estás trabajando en un entorno Linux (Este proyecto lo desarolle en linux Mint)
+
+    sudo apt-get update
+    sudo apt-get install -y python3-pip python3-dev
+    sudo apt-get install -y libsm6 libxext6 libxrender-dev
+    sudo apt-get install -y libgl1-mesa-glx
+
+
+
     ```
 
 3. Ejecuta el script principal:
-   
+
+       Teclado.py
+ 
     ```
 
 ## Uso
 
 1. Asegúrate de que la cámara está conectada y funcionando.
-2. Ejecuta el script `teclado_virtual.py`.
+2. Ejecuta el script `Teclado.py`.
 3. El teclado virtual aparecerá en la pantalla.
 4. Usa gestos para seleccionar y pulsar teclas:
     - Mueve tu dedo índice sobre la tecla deseada.
