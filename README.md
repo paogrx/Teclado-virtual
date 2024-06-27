@@ -59,7 +59,6 @@ Asegúrate de que tu sistema tenga los siguientes paquetes instalados para evita
 3. Ejecuta el script principal:
 
        Teclado.py
- 
     ```
 
 ## Uso
@@ -88,7 +87,8 @@ Este proyecto está licenciado bajo la MIT License - consulta el archivo [LICENS
 ## Contacto
 
 Para cualquier consulta o sugerencia, puedes contactame: paogrxx@gmail.com
-- **Nombre**: Pahola Teobal (Paogrx)
+-
+-  Pahola Teobal (Paogrx)
   
 
 ---
